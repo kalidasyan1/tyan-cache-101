@@ -20,6 +20,34 @@
       <artifactId>caffeine</artifactId>
       <version>3.1.8</version>
     </dependency>
+
+    <!-- Traditional Redis client (Jedis) -->
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>5.0.2</version>
+    </dependency>
+
+    <!-- Modern Redis client (Lettuce) -->
+    <dependency>
+      <groupId>io.lettuce</groupId>
+      <artifactId>lettuce-core</artifactId>
+      <version>6.7.1.RELEASE</version>
+    </dependency>
+
+    <!-- Connection pooling support -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-pool2</artifactId>
+      <version>2.12.0</version>
+    </dependency>
+
+    <!-- Alternative: Redisson (high-level distributed features) -->
+    <dependency>
+      <groupId>org.redisson</groupId>
+      <artifactId>redisson</artifactId>
+      <version>3.24.3</version>
+    </dependency>
   </dependencies>
 
 </project>
