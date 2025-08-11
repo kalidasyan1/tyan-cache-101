@@ -63,7 +63,7 @@ src/main/java/
    redis-server
    
    # Or using Docker
-   docker run -d -p 6379:6379 redis:7-alpine
+   docker run --name redis -p 6379:6379 -d redis
    ```
 
 ### Running the Tutorials
