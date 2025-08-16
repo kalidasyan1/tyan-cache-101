@@ -1,0 +1,2 @@
+- LRU cache: https://leetcode.com/problems/lru-cache/description/?envType=problem-list-v2&envId=2imtjcfi
+- LFU cache: https://leetcode.com/problems/lfu-cache/description/?envType=problem-list-v2&envId=2imtjcfi
